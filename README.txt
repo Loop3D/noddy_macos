@@ -7,8 +7,7 @@ run noddy.dmg by double clicking on it- everything it needs is in this folder
 For full source code of this version see https://github.com/Loop3D/noddy_qt 
 and for legacy codes see https://tectonique.net/noddy
 
-Batch/CLI mode also works from here, e.g. from a Command Prompt/
-PowerShell in this folder:
+Batch/CLI mode also works from here, e.g. from a console in this folder:
 
   open noddy.dmg somefile.his -block
 
