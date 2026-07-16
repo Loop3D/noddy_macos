@@ -1,9 +1,8 @@
 NODDY -- MACOS RUNTIME BUNDLE
 ================================
 
-Just download the entire respository as a zip file, unzip it and 
-run noddy from a console-- everything it needs is in this folder
-(Except Qt5 libraries, which you should install using brew)
+Just download the entire repository as a zip file, unzip it and 
+run noddy.dmg by double clicking on it- everything it needs is in this folder
 
 For full source code of this version see https://github.com/Loop3D/noddy_qt 
 and for legacy codes see https://tectonique.net/noddy
@@ -11,9 +10,9 @@ and for legacy codes see https://tectonique.net/noddy
 Batch/CLI mode also works from here, e.g. from a Command Prompt/
 PowerShell in this folder:
 
-  noddy somefile.his -block
+  open noddy.dmg somefile.his -block
 
-See -help for the full list of batch options.
+Use open noddy.dmg -help for the full list of batch options.
 
 This bundle was copied from a build of:
   noddy-code-r2-orig_src\noddy  (Qt5/MinGW64 build via its Makefile)
