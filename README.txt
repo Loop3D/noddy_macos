@@ -28,3 +28,5 @@ This port has allowed several new features to be added to the code:
 - Voxels above topo surface in block diagrams can now be rendered transparent (In Display Type Dialog).
 - Gaussian noise can now be added to density and magnetic susceptibility at voxel level (In Geophysics Calculation Options)
 
+To make noddy.app just use make
+To make noddy.dmg, use make then /opt/local/libexec/qt5/bin/macdeployqt noddy.app -dmg
