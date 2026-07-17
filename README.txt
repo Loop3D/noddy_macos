@@ -9,14 +9,9 @@ and for legacy codes see https://tectonique.net/noddy
 
 Batch/CLI mode also works from here, e.g. from a console in this folder:
 
-  open noddy.dmg somefile.his -block
+  open noddy.dmg fold_tilt_fault.his -block
 
 Use open noddy.dmg -help for the full list of batch options.
-
-This bundle was copied from a build of:
-  noddy-code-r2-orig_src\noddy  (Qt5/MinGW64 build via its Makefile)
-
-To refresh this bundle after rebuilding noddy, re-copy noddy from that build tree --
 
 
 New Features
