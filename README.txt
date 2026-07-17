@@ -31,3 +31,6 @@ Qt is used to build the GUI for this code. Distribution of Qt libraries for Open
 
 Source Code
 Full source code available here: https://github.com/Loop3D/noddy_qt/
+
+Help
+Manuals for legacy version and other resources can be found here: https://tectonique.net/noddy
