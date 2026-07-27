@@ -10,7 +10,7 @@ and then install qt5 from a terminal with
 
 sudo port install qt5
 
-2) Download the entire repository as a zip file, unzip it 
+2) Download the entire noddy_macos repository as a zip file, unzip it 
 
 Operation:
 Run noddy.dmg by double clicking on it- everything it needs is in this folder
