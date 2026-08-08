@@ -1,8 +1,19 @@
 NODDY -- MACOS RUNTIME BUNDLE
 ================================
 
-Just download the entire repository as a zip file, unzip it and 
-run noddy.dmg by double clicking on it- everything it needs is in this folder
+Installation:
+1) If not already installed, install qt5 using Macports, get it here:
+
+https://www.macports.org/install.php 
+
+and then install qt5 from a terminal with 
+
+sudo port install qt5
+
+2) Download the entire noddy_macos repository as a zip file, unzip it 
+
+Operation:
+Run noddy.dmg by double clicking on it- everything it needs is in this folder
 
 For full source code of this version see https://github.com/Loop3D/noddy_qt 
 and for legacy codes see https://tectonique.net/noddy
@@ -22,6 +33,8 @@ This port has allowed several new features to be added to the code:
 - Voxels above topo surface in block diagrams can now be rendered transparent (In Display Type Dialog).
 - Gaussian noise can now be added to density and magnetic susceptibility at voxel level (In Geophysics Calculation Options)
 
+Compilation:
+For people that want to compile from the source code, download noddy_qt, make sure you have a c/c++ compiler:
 To make noddy.app just use make
 To make noddy.dmg, use make then /opt/local/libexec/qt5/bin/macdeployqt noddy.app -dmg
 
